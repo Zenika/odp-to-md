@@ -43,8 +43,9 @@ Le script `listUnusedImages.sh` est fournit pour trouver les images inutilisées
 Il fonctionne sous Linux, Mac OS ou Windows (via Git Bash, Cygwin, MSys, ...)
 
 - Placer le fichier dans le dossier `ressources` des slides ou/et du cahier de TP.
-- Lancer le script, ce qui produira un script `list.sh`
-- Le script `list.sh` déplace les images inutilisés dans un dossier `backup`
+- Lancer le script, ce qui produira un script `isolateUnusedImages.sh`
+- Le script `isolateUnusedImages.sh` déplace les images inutilisés dans un dossier `backup`
+- Supprimer le dossier `backup` après avoir vérifié le bon fonctionnement des slides
 
 
 ## Image de type SVM
